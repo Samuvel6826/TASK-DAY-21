@@ -7,7 +7,7 @@ function Rating() {
 function Loop({ no }) {
 	let loopArr = [];
 	for (let i = 0; i < no; i++) {
-		loopArr.push(<i className="fa fa-star goldStar"></i>);
+		loopArr.push(<i className="fa fa-star goldStar" key={i}></i>);
 	}
 	return loopArr;
 }
